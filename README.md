@@ -21,6 +21,8 @@ This repository contains my personal Xcode theme "*Neon Glow*" for both light an
   </a>
 </p>
 
+**Note**: The theme uses the `SFMono` font for both source editor and console output. **The current font size is 20 (source editor) and 18 (console)**, you can resize them with `⌘+` (bigger fonts) and `⌘-` (smaller fonts) instead of resizing all fonts manually.
+
 ## Installation
 
 Each method requires you to **close any running instance of Xcode** as Xcode loads all installed custom themes when it starts.
