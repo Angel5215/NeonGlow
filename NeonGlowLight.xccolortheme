@@ -95,7 +95,7 @@
 	<key>DVTSourceTextInsertionPointColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTSourceTextInvisiblesColor</key>
-	<string>0.8 0.8 0.8 1</string>
+	<string>0.8 0.8 0.8 0.75</string>
 	<key>DVTSourceTextSelectionColor</key>
 	<string>0.835294 0.803922 1 1</string>
 	<key>DVTSourceTextSyntaxColors</key>
