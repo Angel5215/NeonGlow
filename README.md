@@ -27,6 +27,14 @@ This repository contains my personal Xcode theme "*Neon Glow*" for both light an
 
 Each method requires you to **close any running instance of Xcode** as Xcode loads all installed custom themes when it starts.
 
+#### Dependencies (optional)
+
+Monaspace variant requires Monaspace Neon and Monaspace Xenon fonts. Both can be installed with Homebrew.
+
+```bash
+brew install --cask font-monaspace
+```
+
 ### Using the `install.sh` script
 
 1. Clone the repository
