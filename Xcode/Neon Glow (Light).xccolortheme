@@ -176,33 +176,33 @@
 		<key>xcode.syntax.comment.doc.keyword</key>
 		<string>SFMono-Bold - 24.0</string>
 		<key>xcode.syntax.declaration.other</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.declaration.type</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>SFMono-Regular - 24.0</string>
+		<string>SFMono-Medium - 24.0</string>
 		<key>xcode.syntax.keyword</key>
 		<string>SFMono-Bold - 24.0</string>
 		<key>xcode.syntax.mark</key>
