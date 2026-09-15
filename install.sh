@@ -6,6 +6,6 @@ echo "Copying themes to folder."
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
 # Copy themes to Xcode Font and Color Themes directory
-cp Xcode/*.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+cp Xcode/*.xcworkspacecolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 
 echo "Themes installed successfully"
