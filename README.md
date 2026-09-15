@@ -1,15 +1,13 @@
 
 # 🌟 Neon Glow 🌟
 
-This repository contains my personal Xcode theme **Neon Glow** for both light and dark configurations. Feel free to use, modify or sharing it with others. 
+This repository contains my personal Xcode theme **Neon Glow** for both light and dark configurations updated for Xcode 27. Feel free to use, modify or sharing it with others. 
 
 <p align="center">
- <a href="img/main.png">
-    <img src="img/main.png" alt="Neon Glow Theme"/>
+ <a href="img/light03.png">
+    <img src="img/light03.png" alt="Neon Glow Theme"/>
   </a>
 </p>
-
-**Note**: The theme uses the default font which currently is SFMono font for both source editor and console output. **The current font size is 24 (source editor) and 22 (console)**, you can resize them with <kbd>⌘+</kbd> (bigger fonts) and <kbd>⌘-</kbd> (smaller fonts) instead of resizing all fonts manually.
 
 ## Installation
 
@@ -25,8 +23,8 @@ Each method requires you to **close any running instance of Xcode** as Xcode loa
 \.install.sh
 ```
 
-4. Open Xcode, then select <kbd>Xcode > Preferences</kbd> in the menu bar or use the <kbd>⌘,</kbd> keyboard shortcut.
-5. Select the <kbd>Themes</kbd> tab. You'll be able to select any version of **Neon Glow** from the list of installed themes.
+4. Open Xcode, then select <kbd>Xcode > Settings</kbd> in the menu bar or use the <kbd>⌘,</kbd> keyboard shortcut.
+5. Select the <kbd>Appearance</kbd> tab. You'll be able to select any version of **Neon Glow** from the list of installed themes.
 
 ### Copying the themes manually
 
@@ -34,9 +32,9 @@ Each method requires you to **close any running instance of Xcode** as Xcode loa
 2. Open the Finder and select <kbd>Go > Go to Folder...</kbd> on the menu bar (shortcut <kbd>⇧⌘G</kbd>).
 3. Type `~/Library/Developer/Xcode/UserData/` and select <kbd>Go</kbd>.
 4. Create a new folder called `FontAndColorThemes` if it doesn't exist inside the `UserData` folder.
-5. Drag and drop `Neon Glow (Dark).xccolortheme` and `Neon Glow (Light).xccolortheme` inside the `FontAndColorThemes` folder.
-6. Open Xcode, then select <kbd>Xcode > Preferences</kbd> in the menu bar or use the <kbd>⌘,</kbd> keyboard shortcut.
-7. Select the <kbd>Themes</kbd> tab. You'll be able to select any version of **Neon Glow*** from the list of installed themes.
+5. Drag and drop `Neon Glow (Dark).xcworkspacecolortheme` and `Neon Glow (Light).xcworkspacecolortheme` inside the `FontAndColorThemes` folder.
+6. Open Xcode, then select <kbd>Xcode > Settings</kbd> in the menu bar or use the <kbd>⌘,</kbd> keyboard shortcut.
+7. Select the <kbd>Appearance</kbd> tab. You'll be able to select any version of **Neon Glow*** from the list of installed themes.
 
 ### Screenshots
 
@@ -48,37 +46,44 @@ Each method requires you to **close any running instance of Xcode** as Xcode loa
   <tr>
     <td>
       <a href="img/dark01.png">
-        <img src="img/dark01.png" alt="Neon Glow (Dark) with Swift Testing" width="300px"/>
+        <img src="img/dark01.png" alt="Neon Glow (Dark) with Swift Testing" width="500px"/>
       </a>
     </td>
     <td>
       <a href="img/light01.png">
-        <img src="img/light01.png" alt="Neon Glow (Light) with Swift Testing" width="300px"/>
+        <img src="img/light01.png" alt="Neon Glow (Light) with Swift Testing" width="500px"/>
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="img/dark02.png">
-        <img src="img/dark02.png" alt="Neon Glow (Dark) with SwiftUI" width="300px"/>
+        <img src="img/dark02.png" alt="Neon Glow (Dark) with SwiftUI" width="500px"/>
       </a>
     </td>
     <td>
       <a href="img/light02.png">
-        <img src="img/light02.png" alt="Neon Glow (Light) with SwiftUI" width="300px"/>
+        <img src="img/light02.png" alt="Neon Glow (Light) with SwiftUI" width="500px"/>
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="img/dark03.png">
-        <img src="img/dark03.png" alt="Neon Glow (Dark) with Swift code" width="300px"/>
+        <img src="img/dark03.png" alt="Neon Glow (Dark) with Swift code" width="500px"/>
       </a>
     </td>
     <td>
       <a href="img/light03.png">
-        <img src="img/light03.png" alt="Neon Glow (Light) with Swift code" width="300px"/>
+        <img src="img/light03.png" alt="Neon Glow (Light) with Swift code" width="500px"/>
       </a>
     </td>
   </tr>
 </table>
+
+
+### Legacy 
+
+From Xcode 27, the format used to store themes has changed to a new JSON-like format with `.xcworkspacecolortheme` extension. Originally, the themes were stored in XML format with `.xccolortheme` extension files. In order to preserve the original themes, they are now stored in the `legacy` folder.
+
+**Note**: The original theme uses the default editor font (SFMono) for both source editor and console output. **The configured font size is 24 (source editor) and 22 (console)**, you can resize them with <kbd>⌘+</kbd> (bigger fonts) and <kbd>⌘-</kbd> (smaller fonts) instead of resizing all fonts manually.
